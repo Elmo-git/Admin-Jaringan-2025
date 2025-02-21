@@ -15,7 +15,7 @@
 
 - **Versi HTTP yang digunakan:**
     
-    ![Versi HTTP](img/VersiHTTP.jpg)
+    ![Versi HTTP](https://github.com/Elmo-git/Admin-Jaringan-2025/blob/main/img/VersiHTTP.jpg)
     - Di Packet HTTP request dijelaskan bahwa versi HTTP yang digunakan adalah versi 1.1.
 
 - **IP client dan server:**
