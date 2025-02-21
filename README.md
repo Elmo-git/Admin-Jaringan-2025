@@ -51,8 +51,7 @@ Pada gambar tersebut dijelaskan proses komunikasi dengan membagi perjalanan data
 
 - **3-Way Handshake:**
     1. Client mengirimkan paket SYN ke server.
-      
-      ![SynAck](img/threewayhandshake.jpg)
+![synack]([img/threewayhandshake.jpg](https://github.com/Elmo-git/Admin-Jaringan-2025/blob/main/img/threewayhandshake.jpg))
     2. Server merespon dengan SYN-ACK.
     3. Client membalas dengan ACK.
 
