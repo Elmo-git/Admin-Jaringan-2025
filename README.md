@@ -20,7 +20,7 @@
 
 - **IP client dan server:**
 
-  ![ipclientserver](img/ipclientserver.jpg){width=600}
+  ![ipclientserver](img/ipclientserver.jpg)
     - Di halaman IPv4 protocol dicantumkan bahwa IP Source adalah:  
       - Source (client): 145.254.160.237  
       - Destination (server): 65.208.228.223
@@ -51,7 +51,7 @@ Pada gambar tersebut dijelaskan proses komunikasi dengan membagi perjalanan data
 
 - **3-Way Handshake:**
     1. Client mengirimkan paket SYN ke server.
-![synack]([img/threewayhandshake.jpg](https://github.com/Elmo-git/Admin-Jaringan-2025/blob/main/img/threewayhandshake.jpg))
+![synack](https://github.com/Elmo-git/Admin-Jaringan-2025/blob/main/img/threewayhandshake.jpg)
     2. Server merespon dengan SYN-ACK.
     3. Client membalas dengan ACK.
 
