@@ -20,7 +20,7 @@
 
 - **IP client dan server:**
 
-  ![ipclientserver](img/ipclientserver.jpg)
+  ![ipclientserver](img/ipclientserver.jpg){width=600}
     - Di halaman IPv4 protocol dicantumkan bahwa IP Source adalah:  
       - Source (client): 145.254.160.237  
       - Destination (server): 65.208.228.223
