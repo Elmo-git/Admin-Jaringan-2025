@@ -1,7 +1,18 @@
 # Process
+# Tugas-Analisa-Process
+# Analisa Process
+
+## Administrasi Jaringan
+
+**Tugas Menganalisa Process**
+
+**Nama:** Raihan Malano A.  
+**NRP:** 3123600019  
+**Kelas:** D4 IT A
+
 
 ## Melihat Proses yang Berjalan
-
+[Versi HTTP]([https://github.com/Elmo-git/Admin-Jaringan-2025/blob/main/img/VersiHTTP.jpg](https://github.com/Elmo-git/Admin-Jaringan-2025/blob/main/Tugas_Process/img/process.png))
 Hasil perintah `ps aux` menunjukkan bahwa ada dua proses yang berjalan dalam container Linux. Proses pertama (PID 1) adalah `/bin/bash`, yang berjalan sebagai shell utama dengan status **Ss** (sleeping, session leader), menggunakan sedikit CPU (0.1%) dan memori (0.0%). Proses kedua (PID 9) adalah `ps aux` sendiri, yang sedang dijalankan oleh user `root` untuk menampilkan daftar proses yang berjalan dalam sistem. Statusnya **R+** (running, foreground process), menunjukkan bahwa perintah ini sedang aktif dieksekusi di terminal (`pts/0`). Kedua proses memiliki **RSS (Resident Set Size)** kecil, yang berarti penggunaan memori fisiknya rendah.
 
 ## Menjalankan Background Process
