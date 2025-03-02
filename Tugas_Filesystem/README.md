@@ -30,7 +30,7 @@ ls -l /
 Perintah ini menampilkan semua file dan folder dalam direktori root (`/`) beserta izin, pemilik, grup, ukuran, dan informasi lainnya.
 
 ## Menentukan Jenis File
-![img4](img4.png)
+![img4](img/img4.png)
 
 Command `file` digunakan untuk menentukan jenis suatu file. Contoh:
 ```bash
@@ -41,7 +41,7 @@ Hasilnya akan menunjukkan apakah file tersebut adalah binary, script, atau jenis
 Command `file` sangat berguna untuk memastikan tipe file sebelum dieksekusi atau dimodifikasi, terutama dalam sistem Linux yang memiliki banyak format file.
 
 ## Membuat dan Menggunakan Hard Link
-![img5](img5.png)
+![img5](img/img5.png)
 
 Command `ln` digunakan untuk membuat hard link. Contoh:
 ```bash
@@ -50,7 +50,7 @@ ln /etc/passwd /tmp/passwd_hardlink
 Hard link memungkinkan beberapa nama file merujuk ke satu inode yang sama dalam filesystem. Hal ini berguna untuk menjaga akses ke file meskipun file asli dihapus, tetapi hanya bisa dibuat dalam satu filesystem yang sama.
 
 ## Membuat dan Menggunakan Symbolic Link
-![img6](img6.png)
+![img6](img/img6.png)
 
 Command `ln -s` digunakan untuk membuat symbolic link. Contoh:
 ```bash
@@ -59,7 +59,7 @@ ln -s /etc/passwd /tmp/passwd_symlink
 Symbolic link (soft link) berbeda dengan hard link karena hanya berisi referensi ke lokasi file asli. Symbolic link dapat menunjuk ke file di filesystem yang berbeda dan tetap berlaku meskipun file asli dihapus.
 
 ## Mengubah Izin File
-![img7](img7.png)
+![img7](img/img7.png)
 
 Command `chmod` digunakan untuk mengubah izin file. Contoh:
 ```bash
@@ -68,7 +68,7 @@ chmod 644 /app/sample.txt
 Perintah ini mengatur izin file sehingga pemilik bisa membaca dan menulis (`rw-`), sementara grup dan lainnya hanya bisa membaca (`r--`). Ini penting untuk mengontrol akses terhadap file dalam lingkungan multi-user.
 
 ## Mengubah Kepemilikan File
-![img8](img8.png)
+![img8](img/img8.png)
 Command `chown` digunakan untuk mengubah pemilik dan grup file. Contoh:
 ```bash
 chown root:root /app/sample.txt
@@ -76,7 +76,7 @@ chown root:root /app/sample.txt
 Mengubah kepemilikan file berguna untuk memastikan hanya user atau grup tertentu yang memiliki kontrol terhadap file, terutama dalam sistem yang memiliki banyak pengguna.
 
 ## Menggunakan Command umask
-![img9](img9.png)
+![img9](img/img9.png)
 
 Command `umask` digunakan untuk menentukan izin default saat membuat file atau direktori baru. Contoh:
 ```bash
@@ -87,7 +87,7 @@ ls -ld /app/newdir
 Dengan `umask 022`, direktori baru akan memiliki izin `755`, yang berarti pemilik memiliki izin penuh, sedangkan grup dan lainnya hanya memiliki izin baca dan eksekusi. Ini berguna untuk mengontrol default permission secara sistematis.
 
 ## Menggunakan ACL untuk File Permissions
-![img10](img10.png)
+![img10](img/img10.png)
 
 Command `setfacl` dan `getfacl` digunakan untuk mengelola izin akses file yang lebih fleksibel. Contoh:
 ```bash
