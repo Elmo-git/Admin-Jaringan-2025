@@ -12,7 +12,7 @@
 
 
 ## Melihat Pathname
-![pwd](img/pwd.png)
+![pwd](/Tugas_Filesystem/img/pwd.png)
 
 Command `pwd` digunakan untuk melihat path direktori saat ini. Dalam kasus ini, direktori kerja saat ini berada di dalam folder `app`.
 
