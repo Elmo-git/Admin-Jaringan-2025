@@ -14,6 +14,7 @@ Repositori ini berisi tugas-tugas yang diberikan dalam mata kuliah Administrasi 
 - [Tugas Process](/Tugas_Process/Tugas.md)
 - [Tugas Filesystem](/Tugas_Filesystem/Filesystem.md)
 - [Tugas Samba](/Tugas_Samba/Laporansamba.md)
+- [Tugas DNS](/Tugas_DNS/DNS.md)
 
 ## 📄 Lisensi
 Repositori ini dibuat untuk keperluan akademik. Semua hak cipta dan penggunaan mengikuti kebijakan yang ditetapkan oleh institusi.
