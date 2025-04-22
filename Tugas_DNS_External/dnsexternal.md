@@ -16,7 +16,7 @@ ip a
 ```
 Hasil: 
 
-![ipdns](/img/ipdns.png)
+![ipdns](./img/ipdns.png)
 
 ip tersebut dipakai di interface internal network
 
@@ -30,7 +30,7 @@ include "/etc/bind/named.conf.external-zones";
 
 Hasil:
 
-![namedconf](/img/namedconf.png)
+![namedconf](./img/namedconf.png)
 
 ### b. Konfigurasi `/etc/bind/named.conf.external-zones`
 
@@ -57,7 +57,7 @@ sudo cp /etc/bind/db.local /etc/bind/kelompok10.com
 ### c. Edit file `/etc/bind/kelompok10.com`
 Contoh isinya:
 
-![kelompok10.com](/img/kel10com.png)
+![kelompok10.com](./img/kel10com.png)
 
 ## 3. Konfigurasi Reverse Zone (192.168.200.19)
 
@@ -70,7 +70,7 @@ sudo cp /etc/bind/db.127 /etc/bind/19.200.168.192.db
 
 Menjadi seperti ini:
 
-![konfigurasirevzone](/img/revzone.png)
+![konfigurasirevzone](./img/revzone.png)
 
 ## 4. Konfigurasi Options (Opsional)
 
@@ -121,7 +121,7 @@ ping kelompok10.com
 
 Hasil:
 
-![hasilping](/img/pingclient.png)
+![hasilping](./img/pingclient.png)
 
 ### c. Tes reverse lookup
 ```bash
@@ -130,7 +130,7 @@ dig -x 192.168.200.19
 
 Hasil:
 
-![hasilrevlookup](/img/hasilreverselookup.png)
+![hasilrevlookup](./img/hasilreverselookup.png)
 
 ## 7. Penutup
 Konfigurasi external zone BIND9 pada domain `kelompok10.com` telah selesai. Pastikan seluruh file zona valid, DNS berjalan, dan client dapat resolve baik nama domain maupun PTR (reverse).
