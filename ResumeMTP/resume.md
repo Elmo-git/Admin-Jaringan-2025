@@ -7,8 +7,8 @@ Praktikum Administrasi Jaringan
 Dr. Ferry Astika Saputra, ST, M.Sc
 
 **Disusun oleh:**  
-Mohammad Zidan Wianto Putra  
-NIM: 3123600029  
+Raihan Malano Arrasyid  
+NIM: 3123600019  
 Kelas: 2 D4 Teknik Informatika A
 
 ---
